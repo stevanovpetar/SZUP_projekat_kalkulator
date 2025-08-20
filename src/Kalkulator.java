@@ -10,11 +10,19 @@
 public class Kalkulator {
     public static void main(String[] args) {
         System.out.println("Dobrodošli u kalkulator!");
-        int rezultat = saberi(5, 3);
-        System.out.println("Sabiranje: 5 + 3 = " + rezultat);
+        int zbir = saberi(5, 3);
+        int razlika = oduzmi(5, 3);
+
+        System.out.println("Sabiranje: 5 + 3 = " + zbir);
+        System.out.println("Oduzimanje: 5 - 3 = " + razlika);
     }
 
     public static int saberi(int a, int b) {
         return a + b;
     }
+
+    public static int oduzmi(int a, int b) {
+        return a - b;
+    }
 }
+
