@@ -9,7 +9,7 @@
  */
 public class Kalkulator {
     public static void main(String[] args) {
-        System.out.println("Dobrodošli u kalkulator!");
+        System.out.println("Dobrodošli u kalkulator verzija 1.1!");
 
         int zbir = Operacije.saberi(5, 3);
         int razlika = Operacije.oduzmi(5, 3);
