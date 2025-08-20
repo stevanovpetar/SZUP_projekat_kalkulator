@@ -35,7 +35,7 @@ public class Kalkulator {
 
     public static double podeli(int a, int b) {
         if (b == 0) {
-            System.out.println("Greška: deljenje nulom!");
+            System.out.println("Greška: deljenje sa nulom nije moguce!");
             return 0;
         }
         return (double) a / b;
